@@ -31,7 +31,7 @@ def get_occurrences(pattern, text):
             occurrences.append(i)
     # and return an iterable variable
     
-    return [0]
+    return occurrences
 
 
 # this part launches the functions

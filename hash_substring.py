@@ -26,7 +26,7 @@ def get_occurrences(pattern, text):
     occurrences = []
 
     for i in range(len_tex-len_pat+1):
-        temp = text[i:i+pat_len]
+        temp = text[i:i+len_pat]
         if hash(temp) == hash(pattern):
             occurrences.append(i)
     # and return an iterable variable
